@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:15:52:33 +0800] "GET /weather/ws/weather HTTP/1.1" 500 271 http-bio-8090-exec-1 261
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:15:52:34 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8090-exec-2 0
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:15:52:55 +0800] "GET /weather/ws/weather&wsdl HTTP/1.1" 404 47 http-bio-8090-exec-4 9
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:15:53:11 +0800] "GET /weather/ws/weather?wsdl HTTP/1.1" 200 2458 http-bio-8090-exec-7 141
+127.0.0.1 - - [14/Nov/2017:15:59:35 +0800] "GET /weather/ws/weather?wsdl HTTP/1.1" 200 2458 http-bio-8090-exec-1 483
+127.0.0.1 - - [14/Nov/2017:16:08:26 +0800] "POST /weather/ws/weather?wsdl HTTP/1.1" 200 232 http-bio-8090-exec-3 187
